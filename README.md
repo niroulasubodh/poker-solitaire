@@ -7,12 +7,13 @@ The project was developed as part of a computer science class assignment, focusi
 # Rules of the game
  
 The game proceeds as follows:
-a<br**(Betting round 1)** First, you and the dealer both get two cards.  Those are your two “hole” cards.  You can see your cards (the are “face up), but not the dealer’s cards (they are “face down”).  You get a chance to bid (“stay” or “fold”)./>  
+a\ **(Betting round 1)** First, you and the dealer both get two cards.  Those are your two “hole” cards.  You can see your cards (the are “face up), but not the dealer’s cards (they are “face down”).  You get a chance to bid (“stay” or “fold”). 
 If you stay:
-• **(Betting round 2)** Three more cards are dealt “face up”.  Those are “the flop”.  You get a chance to bid (“stay” or “fold”).  If you stay:
-• **(Betting round 3)** One more card is dealt “face up”.  That’s “the turn”. You get a chance to bid (“stay” or “fold”).  If you stay:
-• **(Betting round 4)** One last card is dealt “face up”.  That’s “the river”. You get a chance to bid (“stay” or “fold”).  If you stay:
-• The dealer’s “hole” cards are revealed, and your hand is compared to the dealer’s hand according to the standard rules of poker.  Whoever has the best hand wins.  In an unlikely event of a tie, nobody wins.
+b\ **(Betting round 2)** Three more cards are dealt “face up”.  Those are “the flop”.  You get a chance to bid (“stay” or “fold”).  
+If you stay:
+c\ **(Betting round 3)** One more card is dealt “face up”.  That’s “the turn”. You get a chance to bid (“stay” or “fold”).  If you stay:
+d\ **(Betting round 4)** One last card is dealt “face up”.  That’s “the river”. You get a chance to bid (“stay” or “fold”).  If you stay:
+e\ The dealer’s “hole” cards are revealed, and your hand is compared to the dealer’s hand according to the standard rules of poker.  Whoever has the best hand wins.  In an unlikely event of a tie, nobody wins.
  
 If you stay all four betting rounds:
 • If you win, you get 100 points—all your bets were correct for the occasion!
