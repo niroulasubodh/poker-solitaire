@@ -7,7 +7,7 @@ The project was developed as part of a computer science class assignment, focusi
 # Rules of the game
  
 The game proceeds as follows:
-• (Betting round 1) First, you and the dealer both get two cards.  Those are your two “hole” cards.  You can see your cards (the are “face up), but not the dealer’s cards (they are “face down”).  You get a chance to bid (“stay” or “fold”).  If you stay:
+** (Betting round 1) First, you and the dealer both get two cards.  Those are your two “hole” cards.  You can see your cards (the are “face up), but not the dealer’s cards (they are “face down”).  You get a chance to bid (“stay” or “fold”).  If you stay:
 • (Betting round 2) Three more cards are dealt “face up”.  Those are “the flop”.  You get a chance to bid (“stay” or “fold”).  If you stay:
 • (Betting round 3) One more card is dealt “face up”.  That’s “the turn”. You get a chance to bid (“stay” or “fold”).  If you stay:
 • (Betting round 4) One last card is dealt “face up”.  That’s “the river”. You get a chance to bid (“stay” or “fold”).  If you stay:
