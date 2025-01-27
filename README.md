@@ -4,26 +4,24 @@ This Python project is a solitaire version of the classic Texas Hold'em poker ga
 
 The project was developed as part of a computer science class assignment, focusing on implementing Object-Oriented Programming (OOP) principles to create an engaging and functional application. To successfully run the program, ensure you have the graphics.py module available in the same directory as the program.
 
-# Gameplay Overview
-
-The game follows the traditional Texas Hold'em rules but with simplified mechanics:
-    Betting Round 1: The player and dealer receive two "hole" cards. The player chooses to "stay" or "fold."
-    Betting Round 2: Three community cards ("the flop") are dealt. The player again decides to "stay" or "fold."
-    Betting Round 3: A fourth community card ("the turn") is dealt, followed by another decision round.
-    Betting Round 4: The final community card ("the river") is dealt. The player makes their last decision.
-
-At the end of the game, the hands are compared based on standard poker rankings, and points are awarded or deducted based on the player's decisions and the game outcome.
-
-# Rules and Scoring
-
-    Players aim to either:
-        Win by "staying" in the game if their hand is better than the dealer's.
-        Fold early if their hand is weak to minimize point loss.
-    Points are calculated as follows:
-        Winning after staying: +100 points.
-        Folding early when losing: Up to +100 points, depending on the betting round.
-        Folding early when winning: Up to -100 points, depending on the betting round.
-        Losing after staying: -100 points.
+# Rules of the game
+ 
+The game proceeds as follows:
+• (Betting round 1) First, you and the dealer both get two cards.  Those are your two “hole” cards.  You can see your cards (the are “face up), but not the dealer’s cards (they are “face down”).  You get a chance to bid (“stay” or “fold”).  If you stay:
+• (Betting round 2) Three more cards are dealt “face up”.  Those are “the flop”.  You get a chance to bid (“stay” or “fold”).  If you stay:
+• (Betting round 3) One more card is dealt “face up”.  That’s “the turn”. You get a chance to bid (“stay” or “fold”).  If you stay:
+• (Betting round 4) One last card is dealt “face up”.  That’s “the river”. You get a chance to bid (“stay” or “fold”).  If you stay:
+• The dealer’s “hole” cards are revealed, and your hand is compared to the dealer’s hand according to the standard rules of poker.  Whoever has the best hand wins.  In an unlikely event of a tie, nobody wins.
+ 
+If you stay all four betting rounds:
+• If you win, you get 100 points—all your bets were correct for the occasion!
+• If you lose, you get -100 points—all your bets were not correct this time around.
+ 
+If you fold on any of the betting stages, then the dealer’s “hole” cards are revealed, the rest of the five community cards are dealt, and the would-be winner gets determined.  
+• If you would have lost, you get 100 points if you folded on the 1st betting round, 75 points if you folded on the 2nd betting round, 50 points if you folded on the 3rd betting round, and 25 points if you folded on the 4th betting round.  The sooner you realized that you should fold, the more points you get!
+• If you would have won, you get -25 points if you folded on the 4th round (and stayed before then), -50 points if you folded on the 3rd round (and stayed before then), -75 points if you folded on the 2nd round (and stayed before then), and -100 points if you folded on the 1st round.
+ 
+After each game, the player’s average score gets displayed, and the player gets a chance to play again.  The cards that got played get put back into the deck, and the deck is reshuffled before each new game.
 
 # Acknowledgment
 
